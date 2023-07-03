@@ -26,7 +26,7 @@ baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://github.io/spirrobe" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spirrobe
 github_username:  spirrobe
-minimal_mistakes_skin: "ddark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
 # Build settings
