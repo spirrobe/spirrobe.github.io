@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "@spirrobe's (R. Spirig) personal github page"
+subtitle: "Version 0.0"
 email: spirrobe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of repositories and code snippets of mine with various applications!
@@ -57,6 +58,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+logo: "/assets/images/portrait2_rounded_black_small.png"
 defaults:
   # _posts
   - scope:
@@ -69,6 +71,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+
 defaults:
   # _pages
   - scope:
@@ -83,11 +87,13 @@ defaults:
       type: foo
     values:
       layout: single
+
 timezone: UTC
 title_separator: "_"
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
+
 # Site Footer
 footer:
   links:
@@ -109,10 +115,11 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+
 # Site Author
 author:
   name             : "Robert Spirig"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/portrait2_rounded_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Up and about"
   location         : "Somewhere"
   email            :
