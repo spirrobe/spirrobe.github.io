@@ -58,7 +58,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-logo: "/assets/images/portrait2_rounded_black_small.png"
+logo: "_site/assets/images/portrait2_rounded_black_small.png"
 defaults:
   # _posts
   - scope:
@@ -119,7 +119,7 @@ footer:
 # Site Author
 author:
   name             : "Robert Spirig"
-  avatar           : "/assets/images/portrait2_rounded_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "_site/assets/images/portrait2_rounded_black.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Up and about"
   location         : "Somewhere"
   email            :
